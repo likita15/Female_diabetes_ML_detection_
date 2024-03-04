@@ -1,0 +1,26 @@
+------------------------------------------------
+*********||:DIABETES CHECKUP CENTER:||********
+------------------------------------------------
+
+******|     Lab Test Result:     |**********    
+
+
+	                        values
+ID                        	ids569874523659l
+Pregnancies               	1
+Glucose                   	103
+Blood Pressure            	30
+Skin Thickness            	38
+Insulin                   	83
+BMI                       	43
+DiabetesPedigree          	0
+Age                       	45
+outcome                   	0
+
+
+
+Your Diabetes test is Negative
+Thank You for choosing us ......
+
+Please Contact us at diabetesclinic15022002@gmail.com
+Phone:9334464181

@@ -1,0 +1,26 @@
+------------------------------------------------
+*********||:DIABETES CHECKUP CENTER:||********
+------------------------------------------------
+
+******|     Lab Test Result:     |**********    
+
+
+	                        values
+ID                        	idm869709250816n
+Pregnancies               	5
+Glucose                   	166
+Blood Pressure            	72
+Skin Thickness            	19
+Insulin                   	175
+BMI                       	26
+DiabetesPedigree          	1
+Age                       	38
+outcome                   	1
+
+
+
+Your Diabetes test is positive
+Thank You for choosing us ......
+
+Please Contact us at diabetesclinic15022002@gmail.com
+Phone:9334464181
