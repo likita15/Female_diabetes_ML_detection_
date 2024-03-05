@@ -10,10 +10,11 @@ mydb = mysql.connector.connect(
 )
 
 
+
 mycursor = mydb.cursor()
 def generate(patient_id):
     
-    full_path = "C:/Users/aditya/Desktop/Diabetes_predition/Female_diabetes_ML_detection_/navigation_menu/z_test_file_folder/"
+    full_path = "C:/Users/aditya/Desktop/Diabetes_predition/Female_diabetes_ML_detection_/user_authentication/navigation_menu/z_test_file_folder/"
 
 
     file_path = full_path+patient_id+".txt"
@@ -21,6 +22,9 @@ def generate(patient_id):
 
     if os.path.exists(file_path):
         st.warning(f'Test Report file exists already in the location {file_path}')
+        delete_button = st.button('Delete Test Report')
+        if delete_button:
+            os.remove(file_path)
     else:
         cb = st.button('Generate Test Report')
         if cb:
@@ -29,6 +33,7 @@ def generate(patient_id):
             f_report.close()
             f_report = open(file_path,'a')
             f_report.write(f_header.read())
+            
             st.success(f'Test Report created successfully at the location {file_path}')
             
 
